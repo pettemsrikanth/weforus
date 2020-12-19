@@ -1,0 +1,263 @@
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background:#242526;
+  color: #fff;
+  background: hsl(210,3%,15%);
+  font-family:monospace;
+  line-height:180%;
+  align-self: center;
+  text-rendering: optimizeSpeed;
+  text-decoration-color:red;
+}
+.we{
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color:#222;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5%;
+  letter-spacing: 2px;
+}
+.we:hover{
+  color: skyblue;
+}
+.fi::first-letter{
+  font-weight: bolder;
+  font-size: .8rem;
+  color: red;
+}
+#box{
+  width:200px;
+  height: 200px;
+  border: 1px double yellow;
+  background-color: white;
+}
+#drag1,#drag2{
+  width:100px;
+  height: 100px;
+}
+.article,.section,.aside{
+  border:1px dotted white;
+  margin: 1%;
+  padding: 1%;
+}
+.note{
+  font-size: 0.8rem;
+  color:red;
+  font-family:monospace;
+  font-stretch: extra-expanded;
+  word-spacing: 1px;
+  letter-spacing: 3px;
+}
+.w{
+  border: 1px solid white;
+  margin-top: 3%;
+  margin-right: 9%;
+  padding: 4%;
+}
+.w:hover{
+  color:skyblue;
+  border-color: skyblue;
+}
+.h{
+  border: 1px solid white;
+  margin-top: 3%;
+  font-size: 1rem;
+  margin-right: 45%;
+  padding: 2%;
+}
+.h:hover{
+  color:skyblue;
+  border-color: skyblue;
+}
+input{
+  margin-top: 2%;
+  margin-bottom: 4%
+}
+label{
+  color:skyblue;
+  font-stretch: ultra-expanded;
+  font-weight: bolder;
+  font-kerning: normal;
+  font-display: fallback;
+}
+.student{
+  display:grid;
+  margin-top: 2%;
+  margin-right: 40%;
+  padding: 4%;
+  margin-left: 5%;
+}
+.color:hover{
+  border: 1px solid skyblue;
+  margin-right: 50%;
+  padding: 2%;
+}
+.model{
+  padding: 1%;
+  color:skyblue;
+  margin-top: 2%;
+  margin-right: 10%;
+}
+.model:hover{
+  border: 1px solid skyblue;
+}
+.student:hover{
+  border: 1px solid white;
+}
+table{
+  border: 1px solid white;
+  table-layout: fixed;
+  column-span: 2;
+}
+.t{
+  margin-left: 5%;
+  margin-right: 25%;
+  padding: 3%;
+}
+.t:hover{
+  border: 1px solid skyblue;
+  color:skyblue;
+}
+.example{
+  text-decoration: none;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-color: skyblue;
+  border-width: thin;
+  border-style: groove;
+  box-shadow: 1px 2px 4px white;
+  color:yellow;
+  font-family: monospace;
+  margin-left: 2%;
+  margin-top: 3%;
+}
+.example:hover{
+  border-color: red;
+  color:skyblue;
+}
+.line{
+  color:grba(f,f,f,0.1);
+  width: 50%;
+  text-align: center;
+}
+#courses{
+  display: block;
+}
+.link{
+  text-decoration: none;
+  color:skyblue;
+  margin: 4%;
+  font-stretch: ultra-expanded;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+.link:hover{
+  color:red;
+  font-size: 1.3rem;
+  margin-bottom: 1%;
+  border: 1px solid skyblue;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color:white;
+  box-shadow: 1px 2px 4px white;
+}
+.header{
+  background-color: #222;
+  margin-bottom: 40px;
+  border: .5px solid white;
+  box-shadow: 5px 10px 5px white;
+  text-align:center;
+  letter-spacing: 1px;
+  padding-bottom: 2%;
+}
+.header:hover{
+  background-color: #000;
+}
+.footer{
+  background-color: #222;
+  margin-top: 20px;
+  padding:3%;
+  color:white;
+  font-family: monospace;
+  text-align: center;
+  text-emphasis-color: red;
+  font-size: 1rem;
+  font-variant: normal;
+  font-stretch:ultra-expanded;
+  font-display: optional;
+}
+.footer:hover{
+  background-color: #000;
+  color:red;
+  border-width: thin;
+  border-color:red;
+  border-style: ridge;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.p{
+  width:80%;
+  height:250px;
+  overflow: scroll;
+  border:none;
+  margin-right: 10%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  padding-left: 3%;
+  display: block;
+}
+.p:hover{
+  color: skyblue;
+  border: 1px solid skyblue;
+}
+.bold{
+  text-align: center;
+  font-family: monospace;
+  color:pink;
+  font-size: 1.2rem;
+}
+.head1{
+  color:red;
+  text-align: center;
+  font-family:monospace;
+}
+.head3{
+  color:yellow;
+  text-align: center;
+  font-family: monospace;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+.head4{
+  color:#fab;
+  font-size: 1rem;
+  border-color: skyblue;
+  border-style: dashed;
+  padding: 10px;
+  border-width: thin;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+.head4:hover{
+  font-size: 1.3rem;
+}
+.head5{
+  color:skyblue;
+}
+.div{
+   align-content: center;
+   align-items: center;
+}
+#home{
+  display: block;
+}
